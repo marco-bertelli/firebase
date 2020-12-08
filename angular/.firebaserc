@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "prova-13972": {
+      "hosting": {
+        "angular": [
+          "prova-13972"
+        ]
+      }
+    }
+  }
+}
