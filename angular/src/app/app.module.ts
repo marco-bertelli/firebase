@@ -7,6 +7,7 @@ import{ AngularFireModule } from '@angular/fire';
 import{ AngularFirestoreModule } from '@angular/fire/firestore';
 import{ AngularFireAuthModule } from '@angular/fire/auth'
 import { environment } from 'src/environments/environment';
+import { MDBBootstrapModulesPro } from 'ng-uikit-pro-standard';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { environment } from 'src/environments/environment';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    MDBBootstrapModulesPro.forRoot()
 
   ],
   providers: [],
